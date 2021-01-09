@@ -7,19 +7,18 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
+alias d="cd ~/Documents"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
-alias g="git"
+alias g="cd ~/Documents/Git"
 
 # List Files
-alias l="ls -lF ${colorflag}" # colorized in long format
-alias ll="ls -lAF ${colorflag}" # colorized in long format, excluding . and ..
-alias ld="ls -lF ${colorflag} | grep --color=never '^d'" # only directories 
+alias l="ls -lF --color=auto" # colorized in long format
+alias ll="ls -lAF --color=auto" # colorized in long format, excluding . and ..
+alias ld="ls -lF --color=auto | grep --color=never '^d'" # only directories 
 
 # always use color output for `ls`
-alias ls="command ls ${colorflag}"
+alias ls="command ls --color=auto" 
 
 # always enable colored `grep` output
 alias grep='grep --color=auto'
