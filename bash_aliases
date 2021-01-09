@@ -1,4 +1,4 @@
-###  MY ALIASES ###
+###  BASH ALIASES ###
 
 # Easier navigation 
 alias ..="cd .."
@@ -30,7 +30,6 @@ alias egrep='egrep --color=auto'
 alias sudo='sudo '
 
 # Time
-# Get week number
 alias week='date +%V' # Get week number
 alias timenow='date +"%T"' # current time in 24hrs format as HH:MM:SS
 alias datenow='date +"%d-%m-%Y"' # current date in format dd-MM-YY
