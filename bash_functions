@@ -1,4 +1,4 @@
-## My Functions ##
+## BASH FUNCTIONS ##
 
 # Create a new directory and enter it
 function mkd() {
